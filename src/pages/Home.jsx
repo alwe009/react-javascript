@@ -12,7 +12,7 @@ function Home() {
         <li className="list-group-item list-group-item-primary">
           <Link to="/fibonacci">Fibonacci</Link>
         </li>
-        <li className="list-group-item list-group-item-warning">
+        {/* <li className="list-group-item list-group-item-warning">
           <Link to="/strings">Strings</Link>
         </li>
         <li className="list-group-item list-group-item-success">
@@ -28,17 +28,29 @@ function Home() {
           <Link to="/sum-of-digits">Sum of Digits in a String</Link>
         </li>
         <li className="list-group-item list-group-item-dark">
-          <Link to="/check-within-100To500">Check if number is within 100 to 500</Link>
+          <Link to="/check-within-100-500">Check if within 100 to 500</Link>
         </li>
         <li className="list-group-item list-group-item-primary">
-          <Link to="/right-triangle">Right triangle</Link>
+          <Link to="/right-triangle">Right Triangle</Link>
         </li>
         <li className="list-group-item list-group-item-warning">
           <Link to="/triangle">Isosceles Triangle</Link>
         </li>
         <li className="list-group-item list-group-item-success">
-          <Link to="/number-right-triangle">NumberRightTriangle</Link>
+          <Link to="/number-right-triangle">Number Right Triangle</Link>
         </li>
+        <li className="list-group-item list-group-item-info">
+          <Link to="/get-largest-number">Get Largest Number</Link>
+        </li>
+        <li className="list-group-item list-group-item-secondary">
+          <Link to="/get-the-number-of-vowels">Number of Vowels</Link>
+        </li>
+        <li className="list-group-item list-group-item-light">
+          <Link to="/number-triangle">Number Isosceles Triangle</Link>
+        </li>
+        <li className="list-group-item list-group-item-dark">
+          <Link to="/name-randomizer">Name Randomizer</Link>
+        </li> */}
       </ul>
     </div>
   );

@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-function TotalOfDigits() {
-  return <div>TotalOfDigits</div>;
+export default function TotalOfDigits() {
+  return (
+    <div>TotalOfDigits</div>
+  )
 }
-
-export default TotalOfDigits;
